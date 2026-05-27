@@ -1,0 +1,274 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    
+    background: linear-gradient(
+        135deg,
+        #1e3c72,   
+        #2a5298    
+    );
+
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+main {
+    flex: 1; 
+}
+
+nav {
+    background: rgba(0,0,0,0.6);
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav .login-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;   
+    cursor: pointer;
+    font-size: 1rem;         
+}
+
+.home-container {
+    flex: 1;    
+
+    padding-top: 130px;
+    text-align: center;
+}
+
+.welcome {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.login-container {
+    max-width: 400px;
+    margin: auto;              
+    margin-top: 100px;         
+    margin-bottom: 100px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-top: 15px;
+}
+
+
+.login-container input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.login-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-header {
+    text-align: center;
+    color: white; 
+    margin-top: 40px;
+}
+
+.accounts-title {
+    text-align: left;
+    margin-top: 20px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgb(156, 155, 155);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #2a5298;
+    color: white;
+}
+
+
+.dashboard-links {
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.dashboard-links a {
+    color: white;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-top: 15px;
+    text-align: left; 
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+
+.form-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.form-container a {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box; 
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px;
+
+    background: #2a5298;
+    color: white;
+    text-decoration: none;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+
+.page-title {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+.table-spaced {
+    width: 90%;
+    margin: 20px auto;
+    
+}
+
+footer {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+

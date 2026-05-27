@@ -1,7 +1,7 @@
 <?php
 
 function getDB(): PDO {
-    static $pdo = null;         //  så att PDO‑anslutningen bara skapas en gång. tar mindre resurser.
+    static $pdo = null;         // static så att PDO‑anslutningen bara skapas en gång. tar mindre resurser.
 
     if ($pdo === null) {
         $pdo = new PDO("sqlite:" . __DIR__ . "/../database.sqlite");
